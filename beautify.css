@@ -1,15 +1,98 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow-wrap: break-word;
+}
+
+.py4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.fXFOGe {
+  padding: 1rem 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(20, auto);
+}
+
+.jKVHgn.active {
+  color: rgb(3, 169, 244);
+}
+
+.jKVHgn {
+  position: relative;
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+  transition: color 0.2s ease 0s;
+}
+
+.hAlVth {
+  font-size: 1.25rem;
+  font-family: "Roboto Mono", monospace;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  border-right: 1px solid rgb(241, 241, 241);
+  border-left: 1px solid rgb(241, 241, 241);
+  margin-right: 10px;
+}
+
+#header #logo {
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+}
+
+#header #name {
+  color: rgb(241, 241, 241);
+  font-family: "Roboto Mono", monospace;
+  line-height: 1;
+  margin-top: 15px;
+  font-size: 2rem;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+#header #title {
+  color: rgb(241, 241, 241);
+  font-family: "Roboto Mono", monospace;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  box-sizing: border-box;
+}
 body {
   background-color: rgb(31, 31, 31);
-}
-
-.name {
   color: rgb(241, 241, 241);
   font-family: "Roboto Mono", monospace;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
 }
 
-.developers {
+a {
   color: rgb(241, 241, 241);
-  font-family: "Roboto Mono", monospace;
-  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  height: 50px;
+  background: rgb(26, 21, 14);
+  margin-top: auto;
 }
