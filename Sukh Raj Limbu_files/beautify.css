@@ -10665,6 +10665,109 @@ svg:not(:root).svg-inline--fa {
   font-size:1rem;
   color:#8f8f8f
  }
+ .client-quote {
+  padding:1.5rem;
+  padding-left:3rem;
+  border:1px solid rgba(0,0,0,0.025);
+  background:#fafafa;
+  height:100%;
+  position:relative
+ }
+ .client-quote:before {
+  content:"";
+  display:inline-block;
+  position:absolute;
+  left:0;
+  top:0;
+  width:0;
+  height:0;
+  border-style:solid;
+  border-width:40px 40px 0 0;
+  border-color:#54B689 transparent transparent transparent;
+  -webkit-transform:rotate(360deg)
+ }
+ .client-quote .source-profile img {
+  max-width:60px
+ }
+ .client-quote .fa-quote-left {
+  position:absolute;
+  left:0.35rem;
+  top:0.3rem;
+  color:#fff;
+  font-size:0.75rem
+ }
+ .client-quote .source-holder {
+  position:relative;
+  padding-left:76px;
+  height:60px
+ }
+ .client-quote .source-holder .source-profile {
+  position:absolute;
+  left:0;
+  top:0
+ }
+ .client-quote .source-holder .meta {
+  padding-top:.5rem
+ }
+ .pricing-table .pricing-package-title {
+  font-size:1rem;
+  color:#54B689;
+  background:#fafafa;
+  text-align:center;
+  padding:1rem
+ }
+ .pricing-table .price-number {
+  font-size:1.5rem;
+  font-weight:bold
+ }
+ .pricing-table .pricing-desc-row {
+  vertical-align:inherit
+ }
+ .pricing-table tbody th {
+  background:#fafafa;
+  padding:1rem;
+  width:30%;
+  font-size:0.875rem
+ }
+ .pricing-table tbody td {
+  padding:1rem;
+  width:23.3333333%;
+  text-align:center;
+  font-size:0.875rem
+ }
+ .pricing-table tbody td .pricing-package-desc {
+  font-size:0.875rem;
+  line-height:1
+ }
+ .pricing-table .pricing-desc-row td {
+  text-align:left;
+  line-height:1.4
+ }
+ .pricing-table tfoot td {
+  padding:1rem;
+  text-align:center
+ }
+ .pricing-table .btn {
+  height:inherit
+ }
+ .pricing-tab {
+  display:block;
+  text-align:center;
+  padding:0.5rem;
+  width:100%;
+  border-radius:4px;
+  font-weight:bold;
+  background:#e1e1e1;
+  color:#4f4f4f
+ }
+ .pricing-tab:hover {
+  text-decoration:none;
+  color:#4f4f4f
+ }
+ .pricing-tab.active {
+  background:#54B689;
+  color:#fff
+ }
  .faq-accordion .card-toggle {
   color:#4f4f4f;
   text-decoration:none;
@@ -10932,7 +11035,7 @@ svg:not(:root).svg-inline--fa {
    width:100%
   }
   .header .navbar {
-   padding:2.5rem
+   padding:1rem
   }
   .main-wrapper {
    margin-left:0
