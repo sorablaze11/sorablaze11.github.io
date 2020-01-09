@@ -951,7 +951,7 @@ svg:not(:root).svg-inline--fa {
   --white: #fff;
   --gray: #767676;
   --gray-dark: #434343;
-  --primary: #54B689;
+  --primary: #D79922;
   --secondary: #4f4f4f;
   --success: #28a745;
   --info: #17a2b8;
@@ -1079,7 +1079,7 @@ svg:not(:root).svg-inline--fa {
   top:-.5em
  }
  a {
-  color:#54B689;
+  color:#D79922;
   text-decoration:none;
   background-color:transparent
  }
@@ -3202,8 +3202,8 @@ svg:not(:root).svg-inline--fa {
  }
  .btn-primary {
   color:#fff;
-  background-color:#54B689;
-  border-color:#54B689
+  background-color:#D79922;
+  border-color:#D79922
  }
  .btn-primary:hover {
   color:#fff;
@@ -3217,8 +3217,8 @@ svg:not(:root).svg-inline--fa {
  .btn-primary.disabled,
  .btn-primary:disabled {
   color:#fff;
-  background-color:#54B689;
-  border-color:#54B689
+  background-color:#D79922;
+  border-color:#D79922
  }
  .btn-primary:not(:disabled):not(.disabled):active,
  .btn-primary:not(:disabled):not(.disabled).active,
@@ -3457,13 +3457,13 @@ svg:not(:root).svg-inline--fa {
   box-shadow:0 0 0 .2rem rgba(95,95,95,0.5)
  }
  .btn-outline-primary {
-  color:#54B689;
-  border-color:#54B689
+  color:#D79922;
+  border-color:#D79922
  }
  .btn-outline-primary:hover {
   color:#fff;
-  background-color:#54B689;
-  border-color:#54B689
+  background-color:#D79922;
+  border-color:#D79922
  }
  .btn-outline-primary:focus,
  .btn-outline-primary.focus {
@@ -3471,15 +3471,15 @@ svg:not(:root).svg-inline--fa {
  }
  .btn-outline-primary.disabled,
  .btn-outline-primary:disabled {
-  color:#54B689;
+  color:#D79922;
   background-color:transparent
  }
  .btn-outline-primary:not(:disabled):not(.disabled):active,
  .btn-outline-primary:not(:disabled):not(.disabled).active,
  .show>.btn-outline-primary.dropdown-toggle {
   color:#fff;
-  background-color:#54B689;
-  border-color:#54B689
+  background-color:#D79922;
+  border-color:#D79922
  }
  .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
  .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -3698,7 +3698,7 @@ svg:not(:root).svg-inline--fa {
  }
  .btn-link {
   font-weight:400;
-  color:#54B689;
+  color:#D79922;
   text-decoration:none
  }
  .btn-link:hover {
@@ -3967,7 +3967,7 @@ svg:not(:root).svg-inline--fa {
  .dropdown-item:active {
   color:#fff;
   text-decoration:none;
-  background-color:#54B689
+  background-color:#D79922
  }
  .dropdown-item.disabled,
  .dropdown-item:disabled {
@@ -4288,8 +4288,8 @@ svg:not(:root).svg-inline--fa {
  }
  .custom-control-input:checked ~ .custom-control-label::before {
   color:#fff;
-  border-color:#54B689;
-  background-color:#54B689
+  border-color:#D79922;
+  background-color:#D79922
  }
  .custom-control-input:focus ~ .custom-control-label::before {
   box-shadow:0 0 0 .2rem rgba(84,182,137,0.25)
@@ -4342,8 +4342,8 @@ svg:not(:root).svg-inline--fa {
   background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e")
  }
  .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color:#54B689;
-  background-color:#54B689
+  border-color:#D79922;
+  background-color:#D79922
  }
  .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
   background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e")
@@ -4539,7 +4539,7 @@ svg:not(:root).svg-inline--fa {
   width:1rem;
   height:1rem;
   margin-top:-.25rem;
-  background-color:#54B689;
+  background-color:#D79922;
   border:0;
   border-radius:1rem;
   -webkit-transition:background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
@@ -4568,7 +4568,7 @@ svg:not(:root).svg-inline--fa {
  .custom-range::-moz-range-thumb {
   width:1rem;
   height:1rem;
-  background-color:#54B689;
+  background-color:#D79922;
   border:0;
   border-radius:1rem;
   -webkit-transition:background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
@@ -4600,7 +4600,7 @@ svg:not(:root).svg-inline--fa {
   margin-top:0;
   margin-right:.2rem;
   margin-left:.2rem;
-  background-color:#54B689;
+  background-color:#D79922;
   border:0;
   border-radius:1rem;
   -webkit-transition:background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
@@ -4721,7 +4721,7 @@ svg:not(:root).svg-inline--fa {
  .nav-pills .nav-link.active,
  .nav-pills .show>.nav-link {
   color:#fff;
-  background-color:#54B689
+  background-color:#D79922
  }
  .nav-fill .nav-item {
   -webkit-box-flex:1;
@@ -5188,6 +5188,7 @@ svg:not(:root).svg-inline--fa {
  }
  .card-img {
   width:100%;
+  height:100%;
   border-radius:calc(.25rem - 1px)
  }
  .card-img-top {
@@ -5363,7 +5364,7 @@ svg:not(:root).svg-inline--fa {
   padding:.5rem .75rem;
   margin-left:-1px;
   line-height:1.25;
-  color:#54B689;
+  color:#D79922;
   background-color:#fff;
   border:1px solid #a9a9a9
  }
@@ -5391,8 +5392,8 @@ svg:not(:root).svg-inline--fa {
  .page-item.active .page-link {
   z-index:1;
   color:#fff;
-  background-color:#54B689;
-  border-color:#54B689
+  background-color:#D79922;
+  border-color:#D79922
  }
  .page-item.disabled .page-link {
   color:#767676;
@@ -5464,7 +5465,7 @@ svg:not(:root).svg-inline--fa {
  }
  .badge-primary {
   color:#fff;
-  background-color:#54B689
+  background-color:#D79922
  }
  a.badge-primary:hover,
  a.badge-primary:focus {
@@ -5737,7 +5738,7 @@ svg:not(:root).svg-inline--fa {
   color:#fff;
   text-align:center;
   white-space:nowrap;
-  background-color:#54B689;
+  background-color:#D79922;
   -webkit-transition:width 0.6s ease;
   transition:width 0.6s ease
  }
@@ -5823,8 +5824,8 @@ svg:not(:root).svg-inline--fa {
  .list-group-item.active {
   z-index:2;
   color:#fff;
-  background-color:#54B689;
-  border-color:#54B689
+  background-color:#D79922;
+  border-color:#D79922
  }
  .list-group-horizontal {
   -webkit-box-orient:horizontal;
@@ -6852,7 +6853,7 @@ svg:not(:root).svg-inline--fa {
   vertical-align:text-top !important
  }
  .bg-primary {
-  background-color:#54B689 !important
+  background-color:#D79922 !important
  }
  a.bg-primary:hover,
  a.bg-primary:focus,
@@ -6960,7 +6961,7 @@ svg:not(:root).svg-inline--fa {
   border-left:0 !important
  }
  .border-primary {
-  border-color:#54B689 !important
+  border-color:#D79922 !important
  }
  .border-secondary {
   border-color:#4f4f4f !important
@@ -9869,7 +9870,7 @@ svg:not(:root).svg-inline--fa {
   color:#fff !important
  }
  .text-primary {
-  color:#54B689 !important
+  color:#D79922 !important
  }
  a.text-primary:hover,
  a.text-primary:focus {
@@ -10065,7 +10066,7 @@ svg:not(:root).svg-inline--fa {
   text-decoration-color:rgba(41,41,41,0.3)
  }
  a.theme-link:hover {
-  color:#54B689;
+  color:#D79922;
   -webkit-text-decoration-color:rgba(84,182,137,0.8);
   text-decoration-color:rgba(84,182,137,0.8)
  }
@@ -10145,15 +10146,15 @@ svg:not(:root).svg-inline--fa {
   top:0;
   height:100vh;
   width:280px;
-  background:#54B689;
+  background:#D79922;
   color:#fff;
   overflow-y:auto;
-  scrollbar-color:rgba(0,0,0,0.2) #54B689;
+  scrollbar-color:rgba(0,0,0,0.2) #D79922;
   scrollbar-width:thin
  }
  .header::-webkit-scrollbar {
   width:6px;
-  background-color:#54B689
+  background-color:#D79922
  }
  .header::-webkit-scrollbar-thumb {
   background-color:rgba(0,0,0,0.2);
@@ -10289,7 +10290,7 @@ svg:not(:root).svg-inline--fa {
   max-width:320px
  }
  .promo-section .promo-section-inner {
-  background:#54B689
+  background:#D79922
  }
  .footer.theme-bg-light {
   color:#828282
@@ -10372,13 +10373,13 @@ svg:not(:root).svg-inline--fa {
  }
  .dark-mode-toggle .toggle:checked+.toggle-btn {
   border:4px solid rgba(255,255,255,0.9);
-  border:3px solid #54B689;
+  border:3px solid #D79922;
   background:rgba(0,0,0,0.2)
  }
  .dark-mode-toggle .toggle:checked+.toggle-btn:after {
   left:50%;
   background:rgba(255,255,255,0.9);
-  background:#54B689
+  background:#D79922
  }
  .section-title {
   font-size:2rem;
@@ -10390,7 +10391,7 @@ svg:not(:root).svg-inline--fa {
   display:inline-block;
   width:5px;
   height:100%;
-  background:#54B689;
+  background:#D79922;
   position:absolute;
   left:0;
   top:0
@@ -10414,7 +10415,7 @@ svg:not(:root).svg-inline--fa {
  }
  .overview-section .item-icon {
   font-size:1.875rem;
-  color:#54B689
+  color:#D79922
  }
  .overview-section .item-icon .fa-angular {
   color:#CA3327
@@ -10484,7 +10485,7 @@ svg:not(:root).svg-inline--fa {
   height:0;
   border-style:solid;
   border-width:40px 40px 0 0;
-  border-color:#54B689 transparent transparent transparent;
+  border-color:#D79922 transparent transparent transparent;
   -webkit-transform:rotate(360deg)
  }
  .testimonial-carousel .source-profile img {
@@ -10523,13 +10524,6 @@ svg:not(:root).svg-inline--fa {
   border:1px solid rgba(0,0,0,0.025);
   position:relative;
   height:100%
- }
- .project-card:hover .link-mask {
-  visibility:visible;
-  background:rgba(41,41,41,0.4)
- }
- .project-card:hover .link-mask-text {
-  display:block
  }
  .project-card .card-img {
   border-radius:0
@@ -10619,12 +10613,12 @@ svg:not(:root).svg-inline--fa {
   margin-right:0
  }
  .filters .type.active {
-  border-top:2px solid #54B689;
-  color:#54B689;
+  border-top:2px solid #D79922;
+  color:#D79922;
   font-weight:bold
  }
  .filters .type.active:hover {
-  border-top:2px solid #54B689
+  border-top:2px solid #D79922
  }
  .filters .type:hover {
   color:#292929
@@ -10654,7 +10648,7 @@ svg:not(:root).svg-inline--fa {
   color:#8f8f8f
  }
  .metric-name {
-  color:#54B689;
+  color:#D79922;
   font-weight:bold
  }
  .metric-data {
@@ -10694,14 +10688,14 @@ svg:not(:root).svg-inline--fa {
   padding-left:1rem;
   font-size:1.125rem;
   letter-spacing:0.15rem;
-  color:#54B689
+  color:#D79922
  }
  .resume-section-heading:before {
   content:"";
   display:inline-block;
   width:5px;
   height:100%;
-  background:#54B689;
+  background:#D79922;
   position:absolute;
   left:0;
   top:0
@@ -10710,7 +10704,7 @@ svg:not(:root).svg-inline--fa {
   font-size:2.75rem;
   font-weight:900;
   letter-spacing:0.4rem;
-  color:#54B689
+  color:#D79922
  }
  .resume-tagline {
   font-size:1.25rem;
@@ -10724,7 +10718,7 @@ svg:not(:root).svg-inline--fa {
   color:#4f4f4f
  }
  a.resume-link:hover {
-  color:#54B689
+  color:#D79922
  }
  .resume-profile-image {
   max-width:120px
@@ -10813,7 +10807,7 @@ svg:not(:root).svg-inline--fa {
   display:none
  }
  .blog-nav .nav-link {
-  background:#54B689;
+  background:#D79922;
   color:#fff;
   font-size:1rem;
   padding:1rem;
@@ -11011,9 +11005,9 @@ svg:not(:root).svg-inline--fa {
   text-decoration-color:rgba(255,255,255,0.4)
  }
  body.dark-mode a.theme-link:hover {
-  color:#54B689;
-  -webkit-text-decoration-color:#54B689;
-  text-decoration-color:#54B689
+  color:#D79922;
+  -webkit-text-decoration-color:#D79922;
+  text-decoration-color:#D79922
  }
  body.dark-mode .btn-secondary {
   background:#2f435c;
@@ -11052,10 +11046,10 @@ svg:not(:root).svg-inline--fa {
   border-radius:.5rem
  }
  body.dark-mode .header .nav-item.active .nav-link {
-  color:#54B689
+  color:#D79922
  }
  body.dark-mode .header .nav-item.active .nav-link:hover {
-  color:#54B689
+  color:#D79922
  }
  body.dark-mode .header .nav-item .nav-link {
   color:rgba(255,255,255,0.7)
@@ -11072,14 +11066,14 @@ svg:not(:root).svg-inline--fa {
   background:rgba(0,0,0,0.2)
  }
  body.dark-mode .header .nav-item .dropdown-menu .dropdown-item.active {
-  color:#54B689;
+  color:#D79922;
   background:rgba(0,0,0,0.2)
  }
  body.dark-mode .header .btn-primary {
-  background:#54B689
+  background:#D79922
  }
  body.dark-mode .social-list a {
-  background:#54B689
+  background:#D79922
  }
  body.dark-mode .social-list a .svg-inline--fa {
   color:#fff
@@ -11114,16 +11108,16 @@ svg:not(:root).svg-inline--fa {
   border:none
  }
  body.dark-mode .blog-post .blockquote {
-  border-color:#54B689
+  border-color:#D79922
  }
  body.dark-mode .filters .type {
   color:rgba(255,255,255,0.4)
  }
  body.dark-mode .filters .type.active {
-  color:#54B689
+  color:#D79922
  }
  body.dark-mode .filters .type.active:hover {
-  color:#54B689
+  color:#D79922
  }
  body.dark-mode .filters .type:hover {
   color:rgba(255,255,255,0.7)
@@ -11259,7 +11253,7 @@ svg:not(:root).svg-inline--fa {
   border:2px solid #fff
  }
  .config-panel #color-options li.theme-1 a {
-  background:#54B689
+  background:#D79922
  }
  .config-panel #color-options li.theme-2 a {
   background-color:#5BC3D5
